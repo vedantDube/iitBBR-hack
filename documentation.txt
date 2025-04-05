@@ -1,0 +1,30 @@
+Technology Stack:
+- MERN (MongoDB, Express, React with Vite, Node.js)
+- JWT for authentication
+- WebRTC/Google Meet for live conferencing
+
+Backend Structure:
+- Located in “k:\Coding\Web_project\iitBBR-hack\backend\src”
+- App initialization in app.js
+- User authentication, course, and teacher/student routes
+- Controllers handle CRUD operations for courses, assignments, etc.
+- Environment variables (e.g., ACCESS_TOKEN_SECRET) are set via dotenv
+
+Frontend Structure:
+- Located in “k:\Coding\Web_project\iitBBR-hack\frontend\src”
+- Organized by React components (Dashboard, Home, etc.)
+- Uses React Router for navigation (main.jsx)
+- Layout.jsx wraps routed pages for shared UI (header, footer)
+
+Key Features:
+- Admin Portal (user/course management)
+- Teacher Portal (create/grade assignments, track student progress)
+- Student Portal (enroll in courses, submit assignments, attend classes)
+- AI Chatbot (RAG-based summarization)
+- Live Video Conferencing
+
+Usage:
+1. Clone the repository and install dependencies (server/client).
+2. Provide .env variables for MongoDB, port, and JWT secret.
+3. Start the server (Node) and run the React dev server.
+4. Open http://localhost:5173 in a browser to begin.
