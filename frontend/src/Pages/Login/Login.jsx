@@ -198,8 +198,31 @@ export default function Login() {
               )}
             </form>
           </div>
-        </div>
-
+          <div className="para2">
+          
+          <div className="para3">
+          <div className="video-call-icon flex flex-row justify-center gap-3 items-center">
+            <img 
+              src="https://img.icons8.com/ios-filled/50/000000/video-call.png" 
+              alt="Video Call Icon" 
+              width={50} 
+              height={50} 
+              onClick={() => window.location.href = "https://webrtc-cc9n.onrender.com/"} 
+              style={{ cursor: "pointer" , color: "white"}}
+            />
+             <button className="btn-2" onClick={() => window.location.href = "https://webrtc-cc9n.onrender.com/"}>
+              Video Call
+            </button>
+          </div>
+          </div>
+          </div>
+         
+          </div>
+                    
+                    
+                          
+       
+          
         {/* image */}
         <div className="img-3">
           <img src={HR} width={600} alt="" />
