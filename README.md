@@ -24,11 +24,13 @@ Develop a Web2-based e-learning system tailored to the specific needs of a colle
      ![Screenshot 2024-05-15 212149](assets/three.jpg)
 
 #### 3. *Dashboard:*
-   - Students see purchased courses, progress, and communication options.
+   - Students see opted courses, progress, and communication options.
    - Teachers view created courses, student enrollments, and communication features.
 
-     
 ![Screenshot 2024-05-14 211938](assets/two.jpg)
+#### 4. *Documents Upload:*
+   - Faculty can upload multimodal documents and content for their course material.
+     
 #### 4. *Course Opting:*
 
    - Students can browse and attend courses on the platform.
@@ -64,16 +66,14 @@ Develop a Web2-based e-learning system tailored to the specific needs of a colle
    - Course Enrollment: Browse and enroll in available courses.  
    - Lecture Access: Play recorded/live classes and access course materials.  
    - Assignment Submission: Submit assignments online and track due dates.  
-   - Quiz & Exam Participation: Take online quizzes, view results, and track progress.  
+   - Quiz Participation: Take online quizzes, view results, and track progress.  
    - Grades & Feedback: Access grades, feedback, and performance analytics.  
    - Push Notifications: Get alerts for classes, assignments, and announcements.
 
 4. **Bonus Features**  
-   - AI-based Course Recommendations  
-   - Gamification & Leaderboard  
+   - AI-based Material evaluation 
    - Offline Access  
    - Student-Faculty Chat  
-   - Plagiarism Detection
 
 ## Submission Requirements
 - **Deployment Link**: A live URL to the deployed platform.  
