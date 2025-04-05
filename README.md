@@ -39,7 +39,7 @@ Develop a Web2-based e-learning system tailored to the specific needs of a colle
    - Integrated video conferencing tool (similar to Google Meet) for real-time teacher-student interaction.
 
 #### 6. *AI-Powered Education:*
-   - ILinked RAG Based Chatbot to help students summarise and study effectively from documents and pdfs.   
+   - Linked RAG Based Chatbot to help students summarise and study effectively from documents and pdfs.   
 
 ![RAG](assets/six.jpg)
 ![Chatbot](assets/seven.jpg)   
