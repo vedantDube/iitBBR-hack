@@ -6,46 +6,46 @@ Online Learning Platform using MERN Stack
 Develop a Web2-based e-learning system tailored to the specific needs of a college environment. This system will facilitate seamless communication between students and faculty, streamline course management, and enhance the overall learning experience.
 
 ## Features
-![Landing Page](assets/one.jpg)
+![Landing Page](assets/five.jpg)
 
 #### 1. *User Authentication:*
    - Student Login
    - Teacher Login
    - Admin Login
 
-     ![Screenshot 2024-05-14 211251](assets/two.jpg)
+     ![Screenshot 2024-05-14 211251](assets/one.jpg)
 
-![Screenshot 2024-05-14 211154](assets/three.jpg)
+![Screenshot 2024-05-14 211154](assets/four.jpg)
 
 #### 2. *Application Approval:*
    - Students and teachers can submit applications for approval.
    - Admin validates and approves applications.
 
-     ![Screenshot 2024-05-15 212149](https://github.com/Pika003/e-Learning-Platform/assets/104189733/6e8afdba-a8a5-47e3-977c-f5292e136c3f)
+     ![Screenshot 2024-05-15 212149](assets/three.jpg)
 
 #### 3. *Dashboard:*
    - Students see purchased courses, progress, and communication options.
    - Teachers view created courses, student enrollments, and communication features.
 
      
-![Screenshot 2024-05-14 211938](https://github.com/Pika003/e-Learning-Platform/assets/104189733/1008e68d-b683-4e8a-bc85-6d5890946724)
-![Screenshot 2024-05-14 211854](https://github.com/Pika003/e-Learning-Platform/assets/104189733/c857a214-5366-49db-8035-13d2bfb88396)
-#### 4. *Course Purchase:*
+![Screenshot 2024-05-14 211938](assets/two.jpg)
+#### 4. *Course Opting:*
 
-   - Students can browse and buy courses on the platform.
+   - Students can browse and attend courses on the platform.
      
-![Screenshot 2024-05-14 211813](https://github.com/Pika003/e-Learning-Platform/assets/104189733/1578ca04-b85d-4c7b-8875-12f6756f2621)
-
 #### 5. *Live Video Conferencing:*
    - Integrated video conferencing tool (similar to Google Meet) for real-time teacher-student interaction.
 
-#### 6. *Communication:*
+#### 6. *AI-Powered Education:*
+   - ILinked RAG Based Chatbot to help students summarise and study effectively from documents and pdfs.   
+
+![RAG](assets/six.jpg)
+![Chatbot](assets/seven.jpg)   
+
+#### 7. *Communication:*
    - In-platform messaging system for communication between teachers and students.
 
-#### 7. *Payment Integration:*
-   - Integrate a secure payment gateway for course purchases.
-
-## Key Features
+## Key Features to be implemented
 1. **Admin Portal**  
    - User Management: Register and manage faculty/student accounts.  
    - Course Management: Create, edit, and delete courses.  
@@ -75,8 +75,6 @@ Develop a Web2-based e-learning system tailored to the specific needs of a colle
    - Student-Faculty Chat  
    - Plagiarism Detection
 
-![Screenshot 2024-05-14 212028](https://github.com/Pika003/e-Learning-Platform/assets/104189733/e2f9ce48-764b-48d2-8af1-188ea2918e8c)
-
 ## Submission Requirements
 - **Deployment Link**: A live URL to the deployed platform.  
 - **Video Demonstration**: Max 5-minute demo of key features.  
@@ -84,30 +82,10 @@ Develop a Web2-based e-learning system tailored to the specific needs of a colle
 - **GitHub Repository Link**: A well-organized GitHub repo with documentation.  
 - **Project Documentation**: Include system architecture and local setup instructions.
 
-## General Rules
-- Only one team member needs to register.  
-- A team can submit only one entry.  
-- Third-party libraries/APIs/frameworks allowed but must be disclosed.  
-- AI-generated code/assets are permitted only if disclosed and credited.  
-- Offensive or illegal content is not allowed.  
-- The coding period is 24 hours (starting 10:00 AM, April 04, 2024, to April 05, 2024).  
-- No commits after form submission.
-
-## Judging Criteria
-- Features & Theme Adherence: 40%  
-- User Experience, Design & Creativity: 30%  
-- Code Quality, Documentation & Maintainability: 20%  
-- Video Presentation: 5%  
-- Time of Event Remaining: 5%
-
-## Penalty
-- **Late Submission**: 5% deduction every 15 minutes late (up to 50%).  
-- **Plagiarism**: May lead to disqualification or marks deduction.
-
 ## *Tech Stack:*
 
 #### *UI/UX:*
-  - [figma](https://www.figma.com/file/6b4R8evBkii6mI53IA4vSS/Online-Learning-Platform?type=design&node-id=0-1&mode=design&t=HBUPk2hRYW3ioAUj-0) 
+  - Figma 
   - Dribbble
 
 #### *Frontend:*
@@ -126,5 +104,5 @@ Develop a Web2-based e-learning system tailored to the specific needs of a colle
   - Integrate WebRTC for real-time video communication.
   - Using google meet link
 
-#### *Payment Integration:*
-  - Razorpay for secure and seamless payments
+#### *RAG Based Chatbot for students*
+  - Students can access specialised chatbot for context querying.
