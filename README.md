@@ -124,7 +124,7 @@ Develop a Web2-based e-learning system tailored to the specific needs of a colle
 
 #### *Video Conferencing:*
   - Integrate WebRTC for real-time video communication.
-  - Or just using google meet link
+  - Using google meet link
 
 #### *Payment Integration:*
-  - Stripe or PayPal or razorpay for secure and seamless payments
+  - Razorpay for secure and seamless payments
