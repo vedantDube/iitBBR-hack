@@ -6,16 +6,16 @@ Online Learning Platform using MERN Stack
 Develop a Web2-based e-learning system tailored to the specific needs of a college environment. This system will facilitate seamless communication between students and faculty, streamline course management, and enhance the overall learning experience.
 
 ## Features
-![Screenshot 2024-05-14 212028](https://github.com/Pika003/e-Learning-Platform/assets/104189733/e2f9ce48-764b-48d2-8af1-188ea2918e8c)
+![Landing Page](assets/one.jpg)
 
 #### 1. *User Authentication:*
    - Student Login
    - Teacher Login
    - Admin Login
 
-     ![Screenshot 2024-05-14 211251](https://github.com/Pika003/e-Learning-Platform/assets/104189733/3179ba23-ae52-4ab5-8d0a-b2891cc43e0f)
+     ![Screenshot 2024-05-14 211251](assets/two.jpg)
 
-![Screenshot 2024-05-14 211154](https://github.com/Pika003/e-Learning-Platform/assets/104189733/377d8aa0-c35b-46d0-9408-f18b6ecb1ac1)
+![Screenshot 2024-05-14 211154](assets/three.jpg)
 
 #### 2. *Application Approval:*
    - Students and teachers can submit applications for approval.
