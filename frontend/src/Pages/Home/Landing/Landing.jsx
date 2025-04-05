@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Landing.css";
 import Classroom from "../../Images/Classroom.svg";
 import Plant from "../../Images/Plant.svg";
@@ -15,14 +15,29 @@ function Landing() {
   const [LClass, setLClass] = useState(false);
   const [EMentor, setEMentor] = useState(false);
   const [subject, setSubject] = useState('');
-  
   const [facList, setFacList] = useState([]);
   const [loading, setLoading] = useState(true);
+  // State for popup visibility
+  const [showPopup, setShowPopup] = useState(true);
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+
+  // Effect to handle popup timeout
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(false);
+    }, 5000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Redirect function for the popup button
+  const handleCookGptRedirect = () => {
+    window.open('https://cook-gpt-self.vercel.app/', '_blank');
+    setShowPopup(false);
+  };
 
   const handleSearch = ()=>{
-    // console.log('working')
     navigate(`/Search/${subject}`)
   }
 
@@ -49,7 +64,6 @@ function Landing() {
 
     const data = await response.json();
     setFacList(data.data);
-    console.log(data.data);
     setLoading(false);
   }
 
@@ -57,6 +71,47 @@ function Landing() {
   return (
     <>
     <Header/>
+    
+    {/* New Feature Popup */}
+    {showPopup && (
+      <div className="fixed inset-0 flex items-center justify-center z-50 px-4 md:px-0">
+        <div className="absolute inset-0 bg-black bg-opacity-60" onClick={() => setShowPopup(false)}></div>
+        <div className="relative bg-gradient-to-br from-blue-900 to-indigo-800 rounded-xl shadow-2xl p-6 max-w-md w-full mx-auto transform transition-all overflow-hidden">
+          {/* Progress bar for 5 seconds timer */}
+          <div className="absolute top-0 left-0 h-1.5 bg-amber-400 animate-[shrink_6s_linear_forwards]" style={{width: '100%'}}></div>
+          
+          <button 
+            className="absolute top-2 right-2 text-white hover:text-gray-300"
+            onClick={() => setShowPopup(false)}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+          
+          <div className="flex flex-col items-center text-white">
+            <div className="mb-4 rounded-full bg-blue-700 p-3 bg-opacity-50">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            
+            <h2 className="text-2xl font-bold mb-2">New Feature Alert!</h2>
+            <p className="text-center mb-4 text-gray-200">
+              Try our new AI-powered cooking assistant that helps you prepare delicious meals with ingredients you have!
+            </p>
+            
+            <button 
+              onClick={handleCookGptRedirect}
+              className=" w-[60%] mt-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-400"
+            >
+              Explore Cook-GPT
+            </button>
+          </div>
+        </div>
+      </div>
+    )}
+
     {/* Top Section */}
       <div className="top">
         <div className="left">

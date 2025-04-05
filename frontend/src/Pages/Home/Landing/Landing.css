@@ -232,3 +232,13 @@ button:hover{
     display: flex;
     gap: 1rem;
 }
+
+/* === Progress Bar Animation === */
+@keyframes shrink {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
