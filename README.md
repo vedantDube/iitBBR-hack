@@ -1,18 +1,12 @@
-
 # Online Learning Platform
 
 Online Learning Platform using MERN Stack
 
 ## Objective:
-
-Develop a comprehensive online learning platform with three user types (Student, Teacher, Admin), featuring course creation, approval process, and live video conferencing.
-
-## *BACKEND for the PROJECT
-   - Backend is developed by [Parag](https://github.com/paragkadyan).
+Develop a Web2-based e-learning system tailored to the specific needs of a college environment. This system will facilitate seamless communication between students and faculty, streamline course management, and enhance the overall learning experience.
 
 ## Features
 ![Screenshot 2024-05-14 212028](https://github.com/Pika003/e-Learning-Platform/assets/104189733/e2f9ce48-764b-48d2-8af1-188ea2918e8c)
-
 
 #### 1. *User Authentication:*
    - Student Login
@@ -28,7 +22,6 @@ Develop a comprehensive online learning platform with three user types (Student,
    - Admin validates and approves applications.
 
      ![Screenshot 2024-05-15 212149](https://github.com/Pika003/e-Learning-Platform/assets/104189733/6e8afdba-a8a5-47e3-977c-f5292e136c3f)
-
 
 #### 3. *Dashboard:*
    - Students see purchased courses, progress, and communication options.
@@ -52,8 +45,64 @@ Develop a comprehensive online learning platform with three user types (Student,
 #### 7. *Payment Integration:*
    - Integrate a secure payment gateway for course purchases.
 
-----
+## Key Features
+1. **Admin Portal**  
+   - User Management: Register and manage faculty/student accounts.  
+   - Course Management: Create, edit, and delete courses.  
+   - Report Generation: View student performance/course progress/faculty activities.  
+   - System Monitoring: Track platform usage and handle support requests.  
+   - Announcements: Broadcast notifications or updates to users.
 
+2. **Faculty Portal**  
+   - Course Creation & Management: Create and update course content (lectures, PDFs, videos).  
+   - Assignment & Quiz Management: Upload assignments, set deadlines, and create quizzes with auto-grading.  
+   - Student Performance Tracking: Grade assignments, provide feedback, and monitor progress.  
+   - Notifications & Reminders: Send announcements regarding classes, assignments, and exams.
+
+3. **Student Portal**  
+   - User Registration & Authentication: Secure login using college credentials.  
+   - Course Enrollment: Browse and enroll in available courses.  
+   - Lecture Access: Play recorded/live classes and access course materials.  
+   - Assignment Submission: Submit assignments online and track due dates.  
+   - Quiz & Exam Participation: Take online quizzes, view results, and track progress.  
+   - Grades & Feedback: Access grades, feedback, and performance analytics.  
+   - Push Notifications: Get alerts for classes, assignments, and announcements.
+
+4. **Bonus Features**  
+   - AI-based Course Recommendations  
+   - Gamification & Leaderboard  
+   - Offline Access  
+   - Student-Faculty Chat  
+   - Plagiarism Detection
+
+![Screenshot 2024-05-14 212028](https://github.com/Pika003/e-Learning-Platform/assets/104189733/e2f9ce48-764b-48d2-8af1-188ea2918e8c)
+
+## Submission Requirements
+- **Deployment Link**: A live URL to the deployed platform.  
+- **Video Demonstration**: Max 5-minute demo of key features.  
+- **Presentation Slides**: Up to 5 slides covering idea, tech stack, and implementation.  
+- **GitHub Repository Link**: A well-organized GitHub repo with documentation.  
+- **Project Documentation**: Include system architecture and local setup instructions.
+
+## General Rules
+- Only one team member needs to register.  
+- A team can submit only one entry.  
+- Third-party libraries/APIs/frameworks allowed but must be disclosed.  
+- AI-generated code/assets are permitted only if disclosed and credited.  
+- Offensive or illegal content is not allowed.  
+- The coding period is 24 hours (starting 10:00 AM, April 04, 2024, to April 05, 2024).  
+- No commits after form submission.
+
+## Judging Criteria
+- Features & Theme Adherence: 40%  
+- User Experience, Design & Creativity: 30%  
+- Code Quality, Documentation & Maintainability: 20%  
+- Video Presentation: 5%  
+- Time of Event Remaining: 5%
+
+## Penalty
+- **Late Submission**: 5% deduction every 15 minutes late (up to 50%).  
+- **Plagiarism**: May lead to disqualification or marks deduction.
 
 ## *Tech Stack:*
 
@@ -75,7 +124,7 @@ Develop a comprehensive online learning platform with three user types (Student,
 
 #### *Video Conferencing:*
   - Integrate WebRTC for real-time video communication.
-  - Or just using google meet link
+  - Using google meet link
 
 #### *Payment Integration:*
-  - Stripe or PayPal or razorpay for secure and        seamless payments
+  - Razorpay for secure and seamless payments
