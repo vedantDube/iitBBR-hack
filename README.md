@@ -105,4 +105,4 @@ Develop a Web2-based e-learning system tailored to the specific needs of a colle
   - Using google meet link
 
 #### *RAG Based Chatbot for students*
-  - Students can access specialised chatbot for context querying.
+  - Students can access specialised chatbot that functions smoothly for context querying .
